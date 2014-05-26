@@ -1,0 +1,308 @@
+/* ==================================================
+   Social Area
+================================================== */
+
+#social-area {
+    text-align: center;
+}
+
+#social-area #social ul {
+	margin: 0;
+	padding: 0;
+}
+
+#social-area #social ul li {
+	display: inline-block;
+	margin-left: 0px;
+	list-style: none;
+	cursor: pointer;
+}
+
+#social-area #social ul li:first-child {
+	margin-left: 0;
+}
+
+#social ul li a {
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+
+	background: rgba(0,0,0,1.0);
+	
+	border-top-right-radius: 50px;
+  	border-top-left-radius: 50px;
+  	border-bottom-right-radius: 50px;
+  	border-bottom-left-radius: 50px;
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+	
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+
+#social ul li a span {
+	display: inline-block;
+	margin: 0;
+	color: #55606a;
+	font-size: 32px;
+	line-height: 70px;
+	
+	filter: alpha(opacity=100);
+
+	
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+		  
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+#social ul li div
+{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 0.9em;
+	width: 9em; 
+	font-family: Century Gothic;
+}
+#social ul li:hover a,
+#social ul li.active a {
+	background-color: #000;	
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+		    transform: rotateY(180deg);
+}
+
+#social ul li:hover a span,
+#social ul li.active a span {
+	color: #FFFFFF;
+	opacity: 1;
+	
+	opacity: 0.3;
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+}
+
+#stat-area {
+    text-align: center;
+    position: relative;
+    
+}
+
+#stat-area #stat ul {
+	margin: 0;
+	padding: 0;
+}
+
+#stat-area #stat ul li {
+	display: inline-block;
+	margin-left: 0px;
+	list-style: none;
+	cursor: pointer;
+}
+
+#stat-area #stat ul li:first-child {
+	margin-left: 0;
+}
+
+#stat ul li a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+
+	background: rgba(255,255,255,0.5);
+	
+	border-top-right-radius: 60px;
+  	border-top-left-radius: 60px;
+  	border-bottom-right-radius: 60px;
+  	border-bottom-left-radius: 60px;
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+	
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+
+#stat ul li a span {
+	display: inline-block;
+	margin: 0;
+	color: #55606a;
+	font-size: 32px;
+	line-height: 70px;
+	
+	opacity: 1.0;
+	filter: alpha(opacity=30);
+
+	
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+		  
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+
+#stat ul li div
+{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 1em;
+	width: 13em; 
+	font-family: Century Gothic;
+}
+#stat ul li:hover a,
+#stat ul li.active a {
+	background-color: #DE5E60;	
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+		    transform: rotateY(180deg);
+}
+
+#stat ul li:hover a span,
+#stat ul li.active a span {
+	color: #FFFFFF;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+}
+.circular
+{
+	border-top-right-radius: 100px;
+  	border-top-left-radius: 100px;
+  	border-bottom-right-radius: 100px;
+  	border-bottom-left-radius: 100px;
+}
+
+#logo-area {
+    text-align: center;
+}
+
+#logo-area #logo-tathva ul {
+	margin: 0;
+	padding: 0;
+}
+
+#logo-area #logo-tathva ul li {
+	display: inline-block;
+	margin-left: 0px;
+	list-style: none;
+	cursor: pointer;
+}
+
+#logo-area #logo-tathva ul li:first-child {
+	margin-left: 0;
+}
+
+#logo-tathva ul li a {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+
+	background: rgba(255,255,255,0.5);
+	
+	border-top-right-radius: 100px;
+  	border-top-left-radius: 100px;
+  	border-bottom-right-radius: 100px;
+  	border-bottom-left-radius: 100px;
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+	
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+
+#logo-tathva ul li a span {
+	display: inline-block;
+	margin: 0;
+	color: #55606a;
+	font-size: 32px;
+	line-height: 70px;
+	
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+
+	
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+		  
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+
+#logo-tathva ul li div
+{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 1em;
+	width: 13em; 
+	font-family: Century Gothic;
+}
+#logo-tathva ul li:hover a,
+#logo-tathva ul li.active a {
+	background-color: #DE5E60;	
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+		    transform: rotateY(180deg);
+}
+
+#logo-tathva ul li:hover a span,
+#logo-tathva ul li.active a span {
+	color: #FFFFFF;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+}
