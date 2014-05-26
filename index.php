@@ -220,7 +220,6 @@
             <div data-src="img/slideshow/image2.jpg"></div>
             <div data-src="img/slideshow/image1.jpg"></div>
             <div data-src="img/slideshow/image3.jpg"></div>
-            <div data-src="img/slideshow/image3.jpg"></div>
         </div>
     </div>
     <!--BACKGROUND SLIDESHOW ENDS HERE-->
