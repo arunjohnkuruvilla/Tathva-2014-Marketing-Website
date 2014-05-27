@@ -1,0 +1,316 @@
+html,body 
+{
+	height: 100%; margin: 0; padding: 0;
+	background-color: #7F8289;
+	overflow-y: scroll;
+}
+a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover 
+{	
+	color: red;
+}
+p
+{
+	font-family: Century Gothic;
+	margin: 0;
+	padding-bottom: 0px;
+}
+.navbar-fixed-top
+{
+	-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0.2);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-width: 0px;
+box-sizing: border-box;
+display: block;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+height: 45px;
+left: 0px;
+line-height: 20px;
+position: fixed;
+right: 0px;
+top: 0px;
+width: 100%;
+z-index: 1030;
+}
+
+#contact
+{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: block;
+font-family: Eurostile;
+font-size: 21px;
+height: 45.5px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10.5px;
+position: relative;
+text-align: left;
+text-decoration: none solid rgb(255, 255, 255);
+width: 8em;
+float: right;
+}
+
+#facebook-like
+{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: block;
+font-family: Eurostile;
+font-size: 21px;
+height: 45.5px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10.5px;
+position: relative;
+text-align: left;
+text-decoration: none solid rgb(255, 255, 255);
+width: 8em;
+float: left;
+}
+
+#tathva13
+{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: block;
+font-family: Eurostile;
+font-size: 21px;
+height: 45.5px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10.5px;
+position: relative;
+text-align: left;
+text-decoration: none solid rgb(255, 255, 255);
+width: 10em;
+float: right;
+}
+
+#previous
+{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: block;
+font-family: Eurostile;
+font-size: 21px;
+height: 45.5px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10.5px;
+position: relative;
+text-align: left;
+text-decoration: none solid rgb(255, 255, 255);
+width: 13em;
+float: right;
+}
+
+#photo-gallery
+{
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: auto;
+display: block;
+font-family: Eurostile;
+font-size: 21px;
+height: 45.5px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10.5px;
+position: relative;
+text-align: left;
+text-decoration: none solid rgb(255, 255, 255);
+width: 7em;
+float: right;
+}
+
+/*CONTAINER ELEMENTS*/
+#logo
+{
+	position: absolute;
+	top: 5em;
+	left: 7em;
+	line-height: 2em;
+	z-index: 900;
+	font-family: Eurostile;
+}
+
+#logo-tathva
+{
+	position: relative;
+	margin:1em auto;
+	
+}
+
+.one-quarter-width
+{
+	width: 25%;
+}
+.one-third-width
+{
+	width: 33.33%;
+}
+.one-half-width
+{
+	width: 50%;
+}
+.full-width
+{
+	width: 100%;
+}
+
+#icons
+{
+	position: absolute;
+	top:31em;
+	width:100%;
+
+}
+
+#whysponsorus-tab
+{
+	position: relative;
+	margin: 4em auto;
+	width: 80%;
+	height: 420px;
+	background: rgba(0,0,0,0.9);
+	z-index: 5000;
+	overflow: hidden;
+	display: none;
+	border-radius: 5px;
+}
+
+#contactus-tab
+{
+	position: relative;
+	margin: 4em auto;
+	width: 80%;
+	height: 420px;
+	background: rgba(0,0,0,0.9);
+	z-index: 5000;
+	overflow: hidden;
+	display: none;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#aboutus-tab
+{
+	position: relative;
+	margin: 4em auto;
+	width: 80%;
+	height: 420px;
+	background: rgba(0,0,0,0.9);
+	z-index: 5000;
+	overflow: hidden;
+	display: none;
+	border-radius: 5px;
+}
+
+#description
+{
+	position: relative;
+	margin-top: 18em;
+	margin-left: 23em;
+	width: 65%;
+	background: rgba(0,0,0,0.5);
+	z-index: 5000;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+
