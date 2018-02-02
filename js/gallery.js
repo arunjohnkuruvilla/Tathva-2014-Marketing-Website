@@ -8,7 +8,8 @@ $(function(){
 		picture_width = photo_default_size,
 		picture_height = photo_default_size,
 		max_w_photos, max_h_photos
-		data = [];
+		data = [{"thumb":"img\/gallery\/thumbs\/1.jpg","large":"img\/gallery\/large\/1.jpg"},{"thumb":"img\/gallery\/thumbs\/24.jpg","large":"img\/gallery\/large\/24.jpg"},{"thumb":"img\/gallery\/thumbs\/25.jpg","large":"img\/gallery\/large\/25.jpg"},{"thumb":"img\/gallery\/thumbs\/26.jpg","large":"img\/gallery\/large\/26.jpg"},{"thumb":"img\/gallery\/thumbs\/27.jpg","large":"img\/gallery\/large\/27.jpg"}]
+
 
 	// Global variables that cache selectors
 
@@ -16,19 +17,21 @@ $(function(){
 		loading = $('#loading'),
 		gallery = $('#gallery');
 
+	gallery.trigger('data-ready');
+
 	// Fetch all the available images with 
 	// a GET AJAX request
 
-	$.get('load.php', function(response){
+	// $.get('load.php', function(response){
 
-		// response.data holds the photos
+	// 	// response.data holds the photos
 
-		data = response.data;
+	// 	// data = response.data;
 
-		// Trigger our custom data-ready event
-		gallery.trigger('data-ready');
+	// 	// Trigger our custom data-ready event
+		
 
-	});
+	// });
 
 	// Redraw the photos on screen
 	gallery.on('data-ready window-resized page-turned', function(event, direction){
